@@ -26,7 +26,7 @@ const CreatePost = () => {
     e.preventDefault();
     // Add your post creation logic here
     console.log(token , "this is the token");
-    fetch("https://milindmohan25.github.io/NGO-nai-Tarang/backend/api/posts", {
+    fetch("https://backend-service-yahg.onrender.com/api/posts", {
         method: "post",
         mode: "cors",
         headers: {

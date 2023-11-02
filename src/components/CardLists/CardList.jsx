@@ -11,7 +11,7 @@ const CardList = () => {
 
   useEffect(() => {
     // Fetch all posts when the component mounts
-    fetch("https://milindmohan25.github.io/NGO-nai-Tarang/backend/api/posts")
+    fetch("https://backend-service-yahg.onrender.com/api/posts")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");

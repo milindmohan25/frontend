@@ -24,7 +24,7 @@ const SignUpForm = () => {
     // Add your sign-up logic here using the formData
     const {firstName,lastName,email,password}=formData;
     console.log(firstName,lastName,email,password);
-  fetch("https://milindmohan25.github.io/NGO-nai-Tarang/backend/api/auth/signup", {
+  fetch("https://backend-service-yahg.onrender.com/api/auth/signup", {
   method: "post",
   mode: "cors",
   headers: {

@@ -14,7 +14,7 @@ const Login = () => {
     e.preventDefault();
     console.log( "email" , email , password )
     //
-    fetch("https://milindmohan25.github.io/NGO-nai-Tarang/backend/api/auth/login", {
+    fetch("https://backend-service-yahg.onrender.com/api/auth/login", {
      method: "post",
       mode: "cors",
      headers: {
